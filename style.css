@@ -209,6 +209,7 @@ h1{
 }
 
 /* @media query */
+/* 600px */
 @media screen and (max-width:600px) {
 .menubar{
   display:none;
@@ -218,14 +219,13 @@ h1{
 }
 .logm{
   display:inline-block;
-  height:20px;
+  height:25px;
   width: auto;
-  padding-left:20px;
 
 }
 .doted{
   display:inline;
-  height:20px;
+  height:25px;
   width:auto;
 
 }
@@ -262,4 +262,143 @@ p{color:blue;}
   margin:10px;
   margin-bottom: 20px;
 }
+
+.tex{
+  background-color:orange;
+}
+.three{
+
+}
+
+.px{
+  padding-top:10px;
+  padding-bottom:10px;
+}
   }
+
+  /* 800px */
+  @media screen and (max-width:800px) {
+  .menubar{
+    display:none;
+  }
+  .btrr{
+    display:none;
+  }
+  .logm{
+    display:inline-block;
+    height:30px;
+    width: auto;
+    padding-left:10px;
+
+  }
+  .doted{
+    display:inline;
+    height:30px;
+    width:auto;
+
+  }
+  .bt{display: block;}
+  .three:hover .btrr{display: block;}
+
+  .rs{
+    height:60px;
+  }
+  .nam{
+    display:inline;
+  }
+  .man{
+    width:100%;
+  }
+  .tm{
+    width:90%;
+    height:140px;
+    margin:10px;
+  }
+  .btrr{
+  background-color:black;
+  }
+  iframe{
+    width:95%;
+    margin:3px;
+  }
+  .slideshow-container{
+    margin-top:20px;
+  }
+  p{color:blue;}
+  .founder{
+    background-color:white;
+    margin:10px;
+    margin-bottom: 20px;
+  }
+  .px{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+
+  .three{
+    background-color:;
+  }
+    }
+
+/*1000px*/
+    @media screen and (max-width:1000px) {
+    .menubar{
+      display:none;
+    }
+    .btrr{
+      display:none;
+    }
+    .logm{
+      display:inline-block;
+      height:30px;
+      width: auto;
+      margin-left:10px;
+
+    }
+    .doted{
+      display:inline;
+      height:30px;
+      width:auto;
+
+    }
+    .bt{display: block;}
+    .three:hover .btrr{display: block;}
+
+    .rs{
+      height:60px;
+    }
+    .nam{
+      display:inline;
+    }
+    .man{
+      width:100%;
+    }
+    .tm{
+      width:90%;
+      height:140px;
+      margin:10px;
+    }
+    .btrr{
+    background-color:black;
+    }
+    iframe{
+      width:95%;
+      margin:3px;
+    }
+    .slideshow-container{
+      margin-top:20px;
+    }
+    p{color:blue;}
+    .founder{
+      background-color:white;
+      margin:10px;
+      margin-bottom: 20px;
+    }
+    .tex{
+      color: white;
+    }
+    .px{
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+      }
