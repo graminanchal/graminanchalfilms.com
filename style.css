@@ -308,8 +308,9 @@ h1{
   .px{
     display: block;
     padding-top:30px;
-    padding-bottom:25px;
+    padding-bottom:40px;
     margin-bottom: auto;
+    height:100px;
   }
   .btrr{
     color:black;
@@ -388,7 +389,6 @@ h1{
     .px{
       padding-top:0px;
       padding-bottom:10px;
-      height:60px;
     }
 
     .three{
@@ -403,7 +403,7 @@ h1{
       display: block;
       padding-top:30px;
       padding-bottom:25px;
-      margin-bottom: auto;
+      height:100px;
     }
     .btrr{
       color:black;
