@@ -475,10 +475,16 @@ h1{
     }
     .best{
       width:95%;
-      height:auto;
+      height:200px;
     }
     .px{
       margin-top:6px;
        margin-bottom:3px
+    }
+
+    .bst{
+  padding:20px;
+      width:40%:
+      height: auto;
     }
   }
