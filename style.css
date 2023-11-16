@@ -32,11 +32,11 @@ a{
   display:block;
   position:fixed;
   top:0px;
-  margin-left:12%;
+  margin-left:8%;
   border-radius:0 0 30% 30%;
   }
 .men{
-  margin-left:12%;
+  margin-left:11%;
 }
 .Menu{
   padding:10px;
@@ -427,3 +427,54 @@ h1{
     font-family: sans-serif;
   }
       }
+
+  @media screen and (max-width:800px){
+    body{
+      background-image: url(bg2.jpg);
+    }
+    .logm{
+      margin-left:2%;
+      height:20px;
+      margin-top:auto;
+
+    }
+    .about{
+      font-size:50  px;
+    }
+
+    .doted{
+      height:20px;
+    }
+    .px{
+      padding-bottom:10px;
+    }
+    .three{
+      background-color:yellow;
+      border-radius:0px 0px 100% 80%;
+      position:fixed;
+      top:0px;
+      width: 100%;
+    }
+    .px{
+      display: block;
+      padding-top:3px;
+      padding-bottom:40px;
+      margin-bottom: auto;
+      height:10px;
+
+    }
+    .gm{
+      margin-left:0px;
+      display:none;
+      height:30px;
+    }
+    .ro{
+      margin-left:0px;
+      display:none;
+      height:30px;
+    }
+    .best{
+      width:95%;
+      height:auto;
+    }
+  }
